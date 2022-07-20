@@ -1,0 +1,11 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "codegen": "rover supergraph compose --elv2-license=accept --config ./supergraph.yaml > output.graphql"
+  },
+  "dependencies": {
+    "@apollo/rover": "^0.7.0"
+  }
+}

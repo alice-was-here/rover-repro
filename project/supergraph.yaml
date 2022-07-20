@@ -1,0 +1,6 @@
+federation_version: 2
+subgraphs:
+  subgraph1:
+    routing_url: ""
+    schema:
+      file: ./sample.graphql
